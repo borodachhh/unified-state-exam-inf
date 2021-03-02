@@ -1,0 +1,21 @@
+.watermark {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #eaeaea;
+  font-weight: 500;
+  cursor: default;
+}
+
+.watermark .logo {
+  height: 1em;
+  margin: 0 0.5rem;
+  fill: var(--main-color);
+}
+
+.watermark .color-accent {
+  color: var(--main-color);
+}

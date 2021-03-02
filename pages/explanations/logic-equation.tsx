@@ -5,7 +5,6 @@ import { Watermark } from "../../components/Watermark";
 
 export default function LogicEquation() {
   return (
-    <div className={"container"}>
       <Head>
         <title>Логика</title>
         <link rel="icon" href="/ax.svg" />
@@ -273,6 +272,5 @@ export default function LogicEquation() {
       </Main>
 
       <Watermark/>
-      </div>
   );
 }

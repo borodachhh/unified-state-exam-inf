@@ -5,6 +5,7 @@ import { Watermark } from "../../components/Watermark";
 
 export default function LogicEquation() {
   return (
+    <>
       <Head>
         <title>Логика</title>
         <link rel="icon" href="/ax.svg" />
@@ -272,5 +273,6 @@ export default function LogicEquation() {
       </Main>
 
       <Watermark/>
+    </>
   );
 }
